@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+			<ImageView
+			    android:id="@+id/appwidget_coverart"
+			    android:layout_width="256dp"
+			    android:layout_height="256dp"
+			    android:layout_alignParentTop="true"
+			    android:layout_centerHorizontal="true"
+			    android:adjustViewBounds="false"
+			    android:clickable="true"
+			    android:focusable="true"
+			    android:src="@drawable/unknown_album" />
+
+			<ImageButton
+			    android:id="@+id/control_previous"
+			    android:layout_width="70dp"
+			    android:layout_height="wrap_content"
+			    android:layout_alignBottom="@+id/appwidget_coverart"
+			    android:layout_alignLeft="@+id/appwidget_coverart"
+			    android:layout_marginBottom="14dp"
+			    android:layout_weight="1"
+			    android:background="@color/transparent"
+			    android:scaleType="center"
+			    android:src="@drawable/ic_appwidget_music_previous" />
+
+			<ImageButton
+			    android:id="@+id/control_play"
+			    android:layout_width="70dp"
+			    android:layout_height="wrap_content"
+			    android:layout_alignTop="@+id/control_previous"
+			    android:layout_centerHorizontal="true"
+			    android:layout_weight="1"
+			    android:background="@color/transparent"
+			    android:scaleType="center"
+			    android:src="@drawable/ic_appwidget_music_play" />
+
+			<ImageButton
+			    android:id="@+id/control_next"
+			    android:layout_width="70dp"
+			    android:layout_height="wrap_content"
+			    android:layout_alignRight="@+id/appwidget_coverart"
+			    android:layout_alignTop="@+id/control_play"
+			    android:layout_weight="1"
+			    android:background="@color/transparent"
+			    android:scaleType="center"
+			    android:src="@drawable/ic_appwidget_music_next" />
+	
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<github.madmarty.madsonic.util.MyViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/download_button_bar_flipper"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/flipperBackground"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/player_art_background_flipper"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip" >
+
+    <TextView
+        android:id="@+id/download_artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:ellipsize="end"
+        android:paddingTop="2dp"
+        android:singleLine="true"
+        android:text="The Celestials"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/mediaControlForeground"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/download_album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_below="@id/download_artist"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="end"
+        android:paddingBottom="2dp"
+        android:singleLine="true"
+        android:text="The Smashing Pumpkins"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>
+
+
+
+
+
+
+    <include layout="@layout/button_bar"/>
+
+</github.madmarty.madsonic.util.MyViewFlipper>
+
+
+
+

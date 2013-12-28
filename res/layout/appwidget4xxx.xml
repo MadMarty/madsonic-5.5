@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="280dp"
+    android:background="@drawable/unknown_album"
+    android:orientation="horizontal" >
+
+	<LinearLayout
+	    android:id="@+id/appwidget_top"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:clickable="true"
+	    android:focusable="true"
+	    android:orientation="vertical" >
+
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content" >
+
+			<ImageView
+			    android:id="@+id/appwidget_coverart"
+			    android:layout_width="172dp"
+			    android:layout_height="179dp"
+			    android:background="@drawable/unknown_album"
+			    android:clickable="true"
+			    android:focusable="true"
+			    android:scaleType="fitXY"
+			    android:src="@drawable/unknown_album" />
+
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:orientation="vertical" >
+
+			    <TextView
+			        android:id="@+id/title"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:ellipsize="none"
+			        android:fadingEdge="horizontal"
+			        android:fadingEdgeLength="20dip"
+			        android:minHeight="16sp"
+			        android:paddingBottom="4dip"
+			        android:paddingLeft="5dip"
+			        android:paddingRight="5dip"
+			        android:paddingTop="8dip"
+			        android:singleLine="true"
+			        android:text="title"
+			        android:textColor="@color/appwidget_text"
+			        android:textSize="16sp"
+			        android:textStyle="bold" />
+
+			    <TextView
+			        android:id="@+id/artist"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:ellipsize="none"
+			        android:fadingEdge="horizontal"
+			        android:fadingEdgeLength="10dip"
+			        android:minHeight="12sp"
+			        android:paddingBottom="2dip"
+			        android:paddingLeft="5dip"
+			        android:singleLine="true"
+			        android:text="artist"
+			        android:textColor="@color/appwidget_text"
+			        android:textSize="14sp" />
+
+			    <TextView
+			        android:id="@+id/album"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:ellipsize="none"
+			        android:fadingEdge="horizontal"
+			        android:fadingEdgeLength="10dip"
+			        android:minHeight="12sp"
+			        android:paddingBottom="20dip"
+			        android:paddingLeft="5dip"
+			        android:singleLine="true"
+			        android:text="album"
+			        android:textColor="@color/cyan"
+			        android:textSize="14sp" />
+			</LinearLayout>
+
+		</LinearLayout>
+			
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="bottom"
+		    android:gravity="bottom"
+		    android:orientation="horizontal" >
+
+			<ImageButton
+			    android:id="@+id/control_previous"
+			    android:layout_width="0dip"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+			    android:scaleType="center"
+			    android:src="@drawable/ic_appwidget_music_previous" />
+
+			<ImageButton
+			    android:id="@+id/control_play"
+			    android:layout_width="0dip"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+			    android:scaleType="center"
+			    android:src="@drawable/ic_appwidget_music_play" />
+
+			<ImageButton
+			    android:id="@+id/control_next"
+			    android:layout_width="0dip"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+			    android:scaleType="center"
+			    android:src="@drawable/ic_appwidget_music_next" />
+
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

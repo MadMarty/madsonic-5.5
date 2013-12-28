@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!-- MADSONIC HOLO -->  
+  <style name="Madsonic.Holo" parent="android:Theme.Holo">
+    <item name="android:windowBackground">@drawable/background_holo</item>	
+    <item name="android:textColorPrimary">@color/white</item>
+    <item name="android:textColorSecondary">@color/cyan</item>
+    <item name="android:buttonStyle">@style/ButtonMadsonic.Holo</item>
+    <item name="android:imageButtonStyle">@style/Widget.Holo.ImageButton</item>
+    <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check_holo</item>
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarMadsonic.Holo</item>
+    <item name="android:seekBarStyle">@style/SeekBarMadsonic.Holo</item>
+    <item name="android:listViewStyle">@style/ListViewMadsonic.Holo</item>
+    <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb_holo</item>
+    <item name="android:activatedBackgroundIndicator">@drawable/activated_background_holo</item>
+    <item name="chat">@drawable/ic_menu_chat_dark</item>
+    <item name="chat_send">@drawable/ic_menu_chat_send_dark</item>    
+    <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+    </style> 
+
+
+<!-- MADSONIC HOLO FULL -->  
+    <style name="Madsonic.Holo.Fullscreen" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+    <item name="android:windowBackground">@drawable/background_holo</item>	
+    <item name="android:textColorPrimary">@color/white</item>
+    <item name="android:textColorSecondary">@color/cyan</item>
+    <item name="android:buttonStyle">@style/ButtonMadsonic.Holo</item>
+    <item name="android:imageButtonStyle">@style/Widget.Holo.ImageButton</item>
+    <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check_holo</item>
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarMadsonic.Holo</item>
+    <item name="android:seekBarStyle">@style/SeekBarMadsonic.Holo</item>
+    <item name="android:listViewStyle">@style/ListViewMadsonic.Holo</item>
+    <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb_holo</item>
+    <item name="android:activatedBackgroundIndicator">@drawable/activated_background_holo</item>
+    <item name="chat">@drawable/ic_menu_chat_dark</item>
+    <item name="chat_send">@drawable/ic_menu_chat_send_dark</item>    
+    <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+    </style> 
+
+</resources>

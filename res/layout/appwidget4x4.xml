@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".provider.MadsonicWidget4x4" >
+
+    <ImageView
+        android:id="@+id/appwidget_coverart"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="false"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/unknown_album" />
+
+    <TextView
+        android:id="@+id/album"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/appwidget_coverart"
+        android:layout_alignRight="@+id/appwidget_coverart"
+        android:layout_below="@+id/title"
+        android:background="@drawable/menubar_button_normal_alpha"
+        android:ellipsize="none"
+        android:fadingEdge="horizontal"
+        android:fadingEdgeLength="10dip"
+        android:minHeight="12sp"
+        android:paddingBottom="20dip"
+        android:paddingLeft="5dip"
+        android:singleLine="true"
+        android:text="album"
+        android:textColor="@color/appwidget_text"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/artist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/album"
+        android:layout_alignLeft="@+id/appwidget_coverart"
+        android:layout_alignRight="@+id/album"
+        android:ellipsize="none"
+        android:fadingEdge="horizontal"
+        android:fadingEdgeLength="10dip"
+        android:minHeight="12sp"
+        android:paddingBottom="2dip"
+        android:paddingLeft="5dip"
+        android:singleLine="true"
+        android:text="artist"
+        android:textColor="@color/appwidget_text"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_alignBottom="@+id/appwidget_coverart"
+        android:layout_alignLeft="@+id/appwidget_coverart"
+        android:layout_alignRight="@+id/appwidget_coverart"
+        android:background="@drawable/menubar_button_normal_alpha"
+        android:gravity="center" >
+
+        <ImageButton
+            android:id="@+id/control_previous"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:scaleType="center"
+            android:src="@drawable/ic_appwidget_music_previous" />
+
+        <ImageButton
+            android:id="@+id/control_play"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:scaleType="center"
+            android:src="@drawable/ic_appwidget_music_play" />
+
+        <ImageButton
+            android:id="@+id/control_next"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:scaleType="center"
+            android:src="@drawable/ic_appwidget_music_next" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/appwidget_coverart"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/appwidget_coverart"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/menubar_button_normal_alpha"
+        android:ellipsize="none"
+        android:fadingEdge="horizontal"
+        android:fadingEdgeLength="20dip"
+        android:minHeight="16sp"
+        android:paddingBottom="4dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="8dip"
+        android:singleLine="true"
+        android:text="title"
+        android:textColor="@color/appwidget_text"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</RelativeLayout>

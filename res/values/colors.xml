@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mediaControlBackground">#000000</color>
+    <color name="mediaControlForeground">#FFF6CD</color>
+    
+    <color name="dividerColor">#555555</color>
+    <color name="appwidget_text">#FFFFFF</color>
+    
+    <color name="notificationArtist">#ffF3CB00</color>
+    <color name="notificationTitle">#FFFFFF</color>
+
+    <color name="buttonoff">#FFFFFF</color>
+    <color name="buttonon">#ffF3CB00</color>
+    
+    <color name="white">#ffffffff</color>
+    <color name="dark">#ff333333</color>
+    <color name="black">#ff000000</color>
+    <color name="grey">#ffe0e0e0</color>
+    <color name="cyan">#ff0099cc</color>
+    <color name="orange">#ff8000</color>
+    <color name="red">#ffff0000</color>
+    <color name="pink">#ffFF00FF</color>
+    <color name="darkpink">#ffF6CEF5</color>
+    <color name="green">#ffA2FF00</color>
+
+    <color name="bgn">#22333333</color>
+    
+    <color name="transparent">#00000000</color>
+    <color name="ics_opaque">#8033b5e5</color>
+
+    <color name="pressed">#ff333333</color>
+    <color name="bar">#ff222222</color>
+    	
+</resources>

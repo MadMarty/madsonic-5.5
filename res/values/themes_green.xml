@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <!-- MADSONIC GREEN -->
+  <style name="Madsonic.Green" parent="android:Theme.Black">
+    <item name="android:windowBackground">@drawable/background_green</item>	
+    <item name="android:textColorPrimary">@color/mediaControlForeground</item>    
+    <item name="android:textColorSecondary">@color/green</item>
+	<item name="android:editTextStyle">@style/EditTextMadsonic.Green</item>
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewMadsonic.Green</item>
+    <item name="android:checkboxStyle">@style/CheckBoxMadsonic.Green</item>
+    <item name="android:radioButtonStyle">@style/RadioButtonMadsonic.Green</item>
+    <item name="android:buttonStyle">@style/ButtonMadsonic.Green</item>
+    <item name="android:listPopupWindowStyle">@style/PopupMenu</item>
+    <item name="android:imageButtonStyle">@style/Widget.Green.ImageButton</item>
+    <item name="android:spinnerStyle">@style/SpinnerMadsonic.Green</item>
+    <item name="android:spinnerItemStyle">@style/SpinnerItemMadsonic.Green</item>
+<!-- <item name="android:dropDownSpinnerStyle">@style/SpinnerMadsonic.Green.DropDown</item> -->
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemMadsonic.Green</item>
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarMadsonic.Green</item>
+    <item name="android:seekBarStyle">@style/SeekBarMadsonic.Green</item>
+    <item name="android:buttonStyleToggle">@style/ToggleMadsonic.Green</item>
+    <item name="android:listViewStyle">@style/ListViewMadsonic.Green</item>
+    <item name="android:listViewWhiteStyle">@style/ListViewMadsonic.Green.White</item>
+    <item name="android:spinnerItemStyle">@style/SpinnerItemMadsonic.Green</item>
+	<item name="chat">@drawable/ic_menu_chat_dark</item>
+	<item name="chat_send">@drawable/ic_menu_chat_send_dark</item>
+  </style>
+
+  <!-- MADSONIC GREEN FULL-->
+    <style name="Madsonic.Green.Fullscreen" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+    <item name="android:windowBackground">@drawable/background_green</item>	
+    <item name="android:textColorPrimary">@color/mediaControlForeground</item>    
+    <item name="android:textColorSecondary">@color/green</item>
+    <item name="android:editTextStyle">@style/EditTextMadsonic.Green</item>
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewMadsonic.Green</item>
+    <item name="android:checkboxStyle">@style/CheckBoxMadsonic.Green</item>
+    <item name="android:radioButtonStyle">@style/RadioButtonMadsonic.Green</item>
+    <item name="android:buttonStyle">@style/ButtonMadsonic.Green</item>
+    <item name="android:listPopupWindowStyle">@style/PopupMenu</item>
+    <item name="android:imageButtonStyle">@style/Widget.Green.ImageButton</item>
+    <item name="android:spinnerStyle">@style/SpinnerMadsonic.Green</item>
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerMadsonic.Green.DropDown</item>
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemMadsonic.Green</item>
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarMadsonic.Green</item>
+    <item name="android:seekBarStyle">@style/SeekBarMadsonic.Green</item>
+    <item name="android:buttonStyleToggle">@style/ToggleMadsonic.Green</item>
+    <item name="android:listViewStyle">@style/ListViewMadsonic.Green</item>
+    <item name="android:listViewWhiteStyle">@style/ListViewMadsonic.Green.White</item>
+    <item name="android:spinnerItemStyle">@style/SpinnerItemMadsonic.Green</item>
+	<item name="chat">@drawable/ic_menu_chat_dark</item>
+	<item name="chat_send">@drawable/ic_menu_chat_send_dark</item>
+  </style>
+
+</resources>

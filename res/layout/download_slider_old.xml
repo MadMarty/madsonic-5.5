@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:background="@android:color/transparent">
+
+    <TextView
+        android:id="@+id/download_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingBottom="4dip"
+        android:paddingLeft="8dip"
+        android:paddingRight="16dp"
+        android:text="00:00"
+        android:textColor="@color/mediaControlForeground"
+        android:textSize="12sp" />
+
+    <SeekBar
+        android:id="@+id/download_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/download_duration"
+        android:layout_toRightOf="@+id/download_position"
+        android:background="@android:color/transparent"
+        android:paddingBottom="7dip"
+        android:paddingTop="3dip" />
+
+    <TextView
+        android:id="@+id/download_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+		android:paddingBottom="4dip"
+        android:paddingLeft="16dp"
+        android:paddingRight="8dip"
+        android:text="--:--"
+        android:textColor="@color/mediaControlForeground"
+        android:textSize="12sp" />
+
+</RelativeLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/button_bar"
+              android:orientation="vertical"
+              android:layout_gravity="bottom"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content" 
+              android:background="@drawable/menubar_button_normal_pink">
+
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="48dp"
+                  android:gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/button_bar_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="false"
+            android:background="@drawable/buttonbar_selector_pink"
+            android:baselineAlignBottom="false"
+            android:contentDescription="@string/button_bar.home"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_menu_home" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="0.01"
+            android:background="@drawable/bg_separator" />
+
+        <ImageButton
+            android:id="@+id/button_bar_music"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/buttonbar_selector_pink"
+            android:baselineAlignBottom="false"
+            android:contentDescription="@string/button_bar.browse"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_menu_browse" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="0.01"
+            android:background="@drawable/bg_separator" />
+       
+
+        <ImageButton
+            android:id="@+id/button_bar_playlists"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/buttonbar_selector_pink"	    
+            android:contentDescription="@string/button_bar.playlists"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_menu_playlists" />
+
+          <View
+            android:id="@+id/podcast_separator"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="0.01"
+            android:background="@drawable/bg_separator" />        
+        
+        <ImageButton
+            android:id="@+id/button_bar_podcast"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/button_bar.search"
+            android:background="@drawable/buttonbar_selector_pink"	    
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_menu_podcast" />
+             
+        
+        <View
+            android:id="@+id/playlist_separator"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="0.01"
+            android:background="@drawable/bg_separator" />
+        
+        <ImageButton
+            android:id="@+id/button_bar_chat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/button_bar.chat"
+            android:background="@drawable/buttonbar_selector_pink"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_menu_chat" />
+    
+         
+        <View
+            android:id="@+id/chat_separator"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="0.01"
+            android:background="@drawable/bg_separator" />        
+        
+        <ImageButton
+            android:id="@+id/button_bar_search"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/button_bar.search"
+            android:background="@drawable/buttonbar_selector_pink"	    
+            android:scaleType="centerInside"
+            android:src="@drawable/action_search" />
+        
+        <View
+            android:id="@+id/search_separator"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="0.01"
+            android:background="@drawable/bg_separator" />
+        
+        <ImageButton
+            android:id="@+id/button_bar_now_playing"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:contentDescription="@string/button_bar.now_playing"
+            android:background="@drawable/buttonbar_selector_pink"	    
+            android:src="@drawable/ic_menu_play_all" />
+
+    </LinearLayout>
+</LinearLayout>
+

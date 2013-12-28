@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+  
+<!-- MADSONIC PINK -->
+  <style name="Madsonic.Pink" parent="android:Theme.Holo">
+    <item name="android:windowBackground">@drawable/background_pink2</item>	
+    <item name="android:textColorPrimary">@color/white</item>    
+    <item name="android:textColorSecondary">@color/darkpink</item>
+    <item name="android:checkboxStyle">@style/CheckBoxMadsonic.Pink</item>
+    <item name="android:editTextBackground">@drawable/edit_text_pink</item>
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewMadsonic.Pink</item>
+    <item name="android:listViewStyle">@style/ListViewMadsonic.Pink</item>
+    <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check_pink</item>
+    <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio_holo_dark</item>
+    <item name="android:buttonStyle">@style/ButtonMadsonic.Pink</item>
+    <item name="android:imageButtonStyle">@style/Widget.Pink.ImageButton</item>
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerMadsonic.Pink</item>
+    <item name="android:tabWidgetStyle">@style/TabWidgetMadsonic.Pink</item>
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarMadsonic.Pink</item>
+    <item name="android:seekBarStyle">@style/SeekBarMadsonic.Pink</item>
+    <item name="android:ratingBarStyle">@style/RatingBarMadsonic.Pink</item>
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigMadsonic.Pink</item>
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallMadsonic.Pink</item>
+    <item name="android:buttonStyleToggle">@style/ToggleMadsonic.Pink</item>
+    <item name="android:listChoiceBackgroundIndicator">@drawable/list_selector_pink</item>
+    <item name="android:activatedBackgroundIndicator">@drawable/activated_background_pink</item>
+    <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb_pink</item>
+    <item name="android:popupMenuStyle">@style/PopupMenu.Pink</item>
+    <item name="android:actionDropDownStyle">@style/DropDownNav.Pink</item>
+    <item name="chat">@drawable/ic_menu_chat_dark</item>
+    <item name="chat_send">@drawable/ic_menu_chat_send_dark</item>  
+    </style>
+   
+
+<!-- MADSONIC PINK -FULLSCREEN -->
+   <style name="Madsonic.Pink.Fullscreen" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+    <item name="android:windowBackground">@drawable/background_pink2</item>	
+    <item name="android:textColorPrimary">@color/white</item>    
+    <item name="android:textColorSecondary">@color/darkpink</item>
+    <item name="android:checkboxStyle">@style/CheckBoxMadsonic.Pink</item>
+    <item name="android:editTextBackground">@drawable/edit_text_pink</item>
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewMadsonic.Pink</item>
+    <item name="android:listViewStyle">@style/ListViewMadsonic.Pink</item>
+    <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check_pink</item>
+    <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio_holo_dark</item>
+    <item name="android:buttonStyle">@style/ButtonMadsonic.Pink</item>
+    <item name="android:imageButtonStyle">@style/Widget.Pink.ImageButton</item>
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerMadsonic.Pink</item>
+    <item name="android:tabWidgetStyle">@style/TabWidgetMadsonic.Pink</item>
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarMadsonic.Pink</item>
+    <item name="android:seekBarStyle">@style/SeekBarMadsonic.Pink</item>
+    <item name="android:ratingBarStyle">@style/RatingBarMadsonic.Pink</item>
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigMadsonic.Pink</item>
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallMadsonic.Pink</item>
+    <item name="android:buttonStyleToggle">@style/ToggleMadsonic.Pink</item>
+    <item name="android:listChoiceBackgroundIndicator">@drawable/list_selector_pink</item>
+    <item name="android:activatedBackgroundIndicator">@drawable/activated_background_pink</item>
+    <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb_pink</item>
+    <item name="android:popupMenuStyle">@style/PopupMenu.Pink</item>
+    <item name="android:actionDropDownStyle">@style/DropDownNav.Pink</item>
+    <item name="chat">@drawable/ic_menu_chat_dark</item>
+    <item name="chat_send">@drawable/ic_menu_chat_send_dark</item>
+  </style>
+     
+    <style name="ImageButton">
+	    <item name="android:imageButtonStyle">@style/Widget.Pink.ImageButton</item>
+    </style> 
+
+</resources>

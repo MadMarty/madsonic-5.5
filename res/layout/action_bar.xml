@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="@color/bgn" >
+
+    <LinearLayout
+        android:id="@+id/actionbar_back_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" >
+             
+        <ImageView
+            android:id="@+id/actionbar_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_ab_back_holo_dark"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/actionbar_home_icon"
+            android:layout_width="48dip"
+            android:layout_height="48dip"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:paddingBottom="8dp"
+            android:paddingTop="4dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/launch" />
+
+    </LinearLayout>
+
+    <ImageButton
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/action_button_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/btn_bg"
+        android:padding="10dp"
+        android:src="@drawable/ic_action_overflow" />
+ 
+    <ImageButton
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/action_button_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/action_button_3"
+        android:background="@drawable/btn_bg"
+        android:padding="10dp"
+        android:src="@drawable/ic_action_refresh" />
+
+    <ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/action_button_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/action_button_2"
+        android:background="@drawable/btn_bg"
+        android:padding="10dp"
+        android:src="@drawable/ic_menu_shuffle" />
+
+    <ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/action_button_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/action_button_1"
+        android:background="@drawable/btn_bg"        
+		android:padding="10dp"
+        android:visibility="gone" 
+        android:src="@drawable/action_refresh"/>
+    
+    <TextView
+        android:id="@+id/actionbar_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/action_button_0"
+        android:layout_toRightOf="@id/actionbar_back_layout"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:inputType="none"
+        android:paddingLeft="6dip"
+        android:singleLine="true"
+        android:text="Madsonic"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/dividerColor"
+            android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!-- MADSONIC RED -->
+    <style name="Madsonic.Red" parent="android:Theme.Holo">
+    <item name="android:windowBackground">@drawable/background_red</item>
+    <item name="android:textColorPrimary">@color/red</item>
+    <item name="android:textColorSecondary">@color/white</item>
+    <item name="android:checkboxStyle">@style/CheckBoxMadsonic.Red</item>
+    <item name="android:buttonStyle">@style/ButtonMadsonic.Red</item>
+    <item name="android:buttonStyleToggle">@style/ToggleMadsonic.Red</item>
+    <item name="android:imageButtonStyle">@style/Widget.Red.ImageButton</item>
+    <item name="android:editTextBackground">@drawable/edit_text_red</item>
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewMadsonic.Red</item>
+    <item name="android:listViewStyle">@style/ListViewMadsonic.Red</item>
+    <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check_red</item>
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarMadsonic.Red</item>
+    <item name="android:seekBarStyle">@style/SeekBarMadsonic.Red</item>
+    <item name="android:textAppearanceLargePopupMenu">@style/TextAppearance.Widget.PopupMenu.Large</item>
+    <item name="android:textAppearanceSmallPopupMenu">@style/TextAppearance.Widget.PopupMenu.Small</item>
+    <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb_red</item>
+    <item name="android:activatedBackgroundIndicator">@drawable/activated_background_red</item>
+    <item name="chat">@drawable/ic_menu_chat_dark</item>
+    <item name="chat_send">@drawable/ic_menu_chat_send_dark</item>    
+    <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+    </style>
+
+<!-- MADSONIC RED FULLSCREEN -->
+   <style name="Madsonic.Red.Fullscreen" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+    <item name="android:windowBackground">@drawable/background_red</item>
+    <item name="android:textColorPrimary">@color/red</item>
+    <item name="android:textColorSecondary">@color/white</item>
+    <item name="android:checkboxStyle">@style/CheckBoxMadsonic.Red</item>
+    <item name="android:buttonStyle">@style/ButtonMadsonic.Red</item>
+    <item name="android:buttonStyleToggle">@style/ToggleMadsonic.Red</item>
+    <item name="android:imageButtonStyle">@style/Widget.Red.ImageButton</item>
+    <item name="android:editTextBackground">@drawable/edit_text_red</item>
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewMadsonic.Red</item>
+    <item name="android:listViewStyle">@style/ListViewMadsonic.Red</item>
+    <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check_red</item>
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarMadsonic.Red</item>
+    <item name="android:seekBarStyle">@style/SeekBarMadsonic.Red</item>
+    <item name="android:textAppearanceLargePopupMenu">@style/TextAppearance.Widget.PopupMenu.Large</item>
+    <item name="android:textAppearanceSmallPopupMenu">@style/TextAppearance.Widget.PopupMenu.Small</item>
+    <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb_red</item>
+    <item name="android:activatedBackgroundIndicator">@drawable/activated_background_red</item>
+    <item name="chat">@drawable/ic_menu_chat_dark</item>
+    <item name="chat_send">@drawable/ic_menu_chat_send_dark</item>
+    <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+  </style>
+
+</resources>

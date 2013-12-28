@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+	<release version="5.5" versioncode="200" releasedate="19/12/2013">
+     	<change>Fix: ANR Reports: crashed on Search</change>
+     	<change>Fix: Exit Function close now all activities</change>
+     	<change>New: encoded Password within Server-Template</change>
+     	<change>New: deep App Linking/Redirector</change>
+     	<change>New: Mainview: new added Songs</change>
+     	<change>New: Mainview: last played Songs</change>
+     	<change>New: Update Widgets</change>
+     	<change>New: add Lockscreen Widget</change>
+     	<change>New: add Theme Flawless</change>
+     	<change>New: add Album Star Button</change>
+     	<change>New: add Album Share Button</change>
+	   	<change>New: Search suggestion provider</change>
+   		<change>New: use Roboto font (API 16+)</change>
+     	<change>New: new Podcast View </change>
+     	<change>New: add/remove Podcasts (for Admins)</change>
+     	<change>New: support installation on Google TV</change>
+     	<change>New: support Build Android 4.4</change>
+     	<change>New: support serverside Lyric API 1.10.2</change>
+     	<change>New: support Starred Items on Notification</change>
+     	<change>New: support show/hide Podcast/Search/Chat Tab</change>
+     	<change>New: added more Links to Actionbar</change>
+     	<change>New: updated Settingslayout</change>
+     	<change>New: updated Themes</change>
+     	<change>New: use Google Playstore Libaries</change>
+     	<change>Fix: small Bugfixes</change>
+	</release>
+
+	<release version="5.4" versioncode="112" releasedate="07/15/2013">
+     	<change>New: BS Videoplayer support</change>
+     	<change>New: VLC Videoplayer support</change>
+     	<change>New: dialog: add song to new created Playlist</change>
+	<change>Fix: small bugs</change>
+	</release>
+
+	<release version="5.3" versioncode="106" releasedate="06/07/2013">
+		<change>New: Artist Genre View</change>
+		<change>New: Chat Tab</change>
+		<change>New: 4x1 Widget</change>
+		<change>New: 4x2 Widget</change>
+		<change>New: 4x4 Widget</change>
+		<change>New: Support Gapless playback</change> 
+		<change>New: Drag-n-Drop on Playlist</change> 
+		<change>New: Rework caching Imageloader</change>
+		<change>New: many Theme tweaks</change>
+     	<change>New: native MX Videoplayer support</change>
+		<change>Theme: Light</change> 
+		<change>Theme: Pink</change> 
+		<change>Theme: Light Fullscreen</change> 
+		<change>Theme: Pink Fullscreen</change> 
+		<change>Fix: small bugs</change>
+	</release>
+
+	<release version="5.2" versioncode="68" releasedate="05/08/2013">
+		<change>New: Language selectable</change>
+		<change>New: Support up to 10 Server Entries</change>
+		<change>New: import Server Settings from XML File</change>
+		<change>New: Add Option for Videoplayer intern/extern</change>
+		<change>View: All Artists</change>
+		<change>View: Starred Artists</change>
+		<change>Theme: Dark Fullscreen</change>
+		<change>Theme: Theme Holo Fullscreen</change>
+		<change>Theme: Theme Red Fullscreen</change>
+		<change>Fix: small bugs</change>
+	</release>
+
+	<release version="5.1" versioncode="45" releasedate="05/01/2013">
+		<change>New: Advanced UI</change>
+		<change>New: Client Skins</change>
+		<change>New: Audiofocus Settings</change>
+		<change>New: Advanced Notification for Jelly Bean</change>
+		<change>New: Artist/Album/Songs Display Settings</change>
+		<change>New: Lock screen controls</change>
+		<change>New: Better Playlist Support</change>
+		<change>New: Better Bluetooth Support</change>
+		<change>New: Add/Remove Songs to Playlist</change>
+		<change>New: Stuttering playback Fix</change>
+		<change>View: Random Songs</change>
+		<change>View: Genre Songs</change>
+		<change>View: Album Tips</change>
+		<change>View: Hot Rated List</change>
+		<change>View: Starred song support</change>
+		<change>View: Starred album support</change>
+		<change>View: Alphabetical by artist</change>
+		<change>View: Alphabetical by album</change>
+		<change>Translation english</change>
+		<change>Translation german</change>
+		<change>Translation french</change>
+		<change>Translation russia </change>
+		<change>Translation hungary </change>
+	</release>
+
+</changelog>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content" >
+
+    <ImageView
+	        android:id="@+id/album_coverart"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="left|center_vertical"
+            android:paddingTop="1dip"
+            android:paddingBottom="1dip" />
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="left|center_vertical"
+            android:paddingLeft="6dip"
+            android:paddingRight="3dip">
+
+        <TextView
+            android:id="@+id/album_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="This is the album title"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp" >
+
+            <TextView
+                android:id="@+id/album_artist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"                     
+                android:layout_weight="1.84"
+                android:singleLine="true"
+                android:text="This is the artist"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <ImageButton
+                android:id="@+id/album_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"     
+                android:background="@null"
+                android:focusable="false"
+                android:paddingRight="6dp"
+                android:src="@android:drawable/star_big_off" />
+
+            <ImageView
+                android:id="@+id/album_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="6dp"
+                android:background="@drawable/ic_menu_moreoverflow" />
+
+            <TextView
+                android:id="@+id/artist_song_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.84"
+                android:ellipsize="none"
+                android:paddingRight="4dip"
+                android:singleLine="true"
+                android:text="SongCount"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="10sp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+        
+    </LinearLayout>
+        
+</LinearLayout>

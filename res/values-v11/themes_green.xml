@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <!-- MADSONIC GREEN -->
+  <style name="Madsonic.Green" parent="android:Theme.Holo">
+    <item name="android:actionBarStyle">@style/ActionBar</item>
+    <item name="android:windowBackground">@drawable/background_green</item>	
+    <item name="android:textColorPrimary">@color/mediaControlForeground</item>    
+    <item name="android:textColorSecondary">@color/green</item>
+    <item name="android:editTextStyle">@style/EditTextMadsonic.Green</item>
+    <item name="android:checkboxStyle">@style/CheckBoxMadsonic.Green</item>
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewMadsonic.Green</item>
+    <item name="android:buttonStyle">@style/ButtonMadsonic.Green</item>
+    <item name="android:buttonStyleToggle">@style/ToggleMadsonic.Green</item>    
+    <item name="android:imageButtonStyle">@style/Widget.Green.ImageButton</item> 
+    <item name="android:radioButtonStyle">@style/RadioButtonMadsonic.Green</item>
+    <item name="android:tabWidgetStyle">@style/TabWidgetMadsonic.Green</item>
+    <item name="android:listViewStyle">@style/ListViewMadsonic.Green</item> 
+    <item name="android:listViewWhiteStyle">@style/ListViewMadsonic.Green.White</item>  
+    <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check_green</item>
+    <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio_holo_dark</item>
+    <item name="android:listChoiceBackgroundIndicator">@drawable/list_selector_green</item>
+    <item name="android:activatedBackgroundIndicator">@drawable/activated_background_green</item>
+    <item name="android:spinnerStyle">@style/SpinnerMadsonic.Green</item>
+    <item name="android:spinnerItemStyle">@style/SpinnerItemMadsonic.Green</item>
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemMadsonic.Green</item>
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarMadsonic.Green</item>
+    <item name="android:seekBarStyle">@style/SeekBarMadsonic.Green</item>
+    <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb_green</item>
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerMadsonic.Green.DropDown</item>
+    <item name="android:actionDropDownStyle">@style/DropDownNav.Green</item>
+    <item name="android:popupMenuStyle">@style/PopupMenu.Green</item>
+    <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+  </style>
+
+  <!-- MADSONIC GREEN FULL-->
+    <style name="Madsonic.Green.Fullscreen" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+    <item name="android:actionBarStyle">@style/ActionBar</item>
+    <item name="android:windowBackground">@drawable/background_green</item>	
+    <item name="android:textColorPrimary">@color/mediaControlForeground</item>    
+    <item name="android:textColorSecondary">@color/green</item>
+    <item name="android:editTextStyle">@style/EditTextMadsonic.Green</item>
+    <item name="android:checkboxStyle">@style/CheckBoxMadsonic.Green</item>
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewMadsonic.Green</item>
+    <item name="android:buttonStyle">@style/ButtonMadsonic.Green</item>
+    <item name="android:buttonStyleToggle">@style/ToggleMadsonic.Green</item>
+    <item name="android:imageButtonStyle">@style/Widget.Green.ImageButton</item>
+    <item name="android:radioButtonStyle">@style/RadioButtonMadsonic.Green</item>
+    <item name="android:listViewStyle">@style/ListViewMadsonic.Green</item> 
+    <item name="android:listViewWhiteStyle">@style/ListViewMadsonic.Green.White</item>
+    <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check_green</item>
+    <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio_holo_dark</item>
+    <item name="android:listChoiceBackgroundIndicator">@drawable/list_selector_green</item>
+    <item name="android:activatedBackgroundIndicator">@drawable/activated_background_green</item>
+    <item name="android:spinnerStyle">@style/SpinnerMadsonic.Green</item>
+    <item name="android:spinnerItemStyle">@style/SpinnerItemMadsonic.Green</item>
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemMadsonic.Green</item>
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerMadsonic.Green.DropDown</item>
+    <item name="android:actionDropDownStyle">@style/DropDownNav.Green</item>
+    <item name="android:popupMenuStyle">@style/PopupMenu.Green</item>
+    <item name="android:seekBarStyle">@style/SeekBarMadsonic.Green</item>
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarMadsonic.Green</item>
+    <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb_green</item>
+	<item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+  </style>
+
+    <style name="ListView">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+    </style>  
+
+    <style name="ImageButton">
+		<item name="android:imageButtonStyle">@style/Widget.Green.ImageButton</item> 
+    </style>  
+
+
+
+</resources>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="EditTextMadsonic.Green" parent="android:Widget.EditText">
+	  <item name="android:background">@drawable/edit_text_green</item>
+	  <item name="android:textColor">#ffffff</item>
+  </style>
+
+  <style name="AutoCompleteTextViewMadsonic.Green" parent="android:Widget.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/list_selector_green</item>
+	  <item name="android:background">@drawable/edit_text_green</item>
+	  <item name="android:textColor">#ffffff</item>
+  </style>
+
+  <style name="CheckBoxMadsonic.Green" parent="android:Widget.CompoundButton.CheckBox">
+      <item name="android:button">@drawable/btn_check_green</item>
+  </style>
+
+  <style name="RadioButtonMadsonic.Green" parent="android:Widget.CompoundButton.RadioButton">
+      <item name="android:button">@drawable/btn_radio_holo_dark</item>
+  </style>
+
+  <style name="Widget.Green.ImageButton" parent="Widget.Holo.ImageButton">
+      <item name="android:background">@drawable/buttonbar_selector_green</item>
+      <item name="android:listViewStyle">@style/ListViewMadsonic.Green</item>	  
+  </style>  
+    
+  <style name="ButtonMadsonic.Green" parent="android:Widget.Holo.Button">
+	  <item name="android:background">@drawable/btn_default_green</item>
+	  <item name="android:minHeight">48dip</item>
+	  <item name="android:minWidth">64dip</item>
+	  <item name="android:textColor">#ffffff</item>
+  </style>
+
+
+
+
+  <style name="ImageButtonMadsonic.Green" parent="android:Widget.Holo.ImageButton">
+	  <item name="android:background">@drawable/btn_default_green</item>
+      <item name="android:listSelector">@drawable/list_selector_green</item>
+  </style>
+
+  <style name="SpinnerMadsonic.Green" parent="android:Widget.Holo.Spinner">
+      <item name="android:background">@drawable/spinner_background_green</item>
+      <item name="android:dropDownSelector">@drawable/list_selector_green</item>
+  </style>
+
+  <style name="SpinnerMadsonic.Green.DropDown">
+      <item name="android:spinnerMode">dropdown</item>
+  </style>
+
+  <style name="SpinnerDropDownItemMadsonic.Green" parent="android:Widget.DropDownItem.Spinner">
+      <item name="android:checkMark">@drawable/btn_radio_holo_dark</item>
+  </style>
+  
+    <style name="TabWidgetMadsonic.Green" parent="@android:style/Widget.TabWidget">
+      <item name="android:tabStripLeft">@null</item>
+      <item name="android:tabStripRight">@null</item>
+      <item name="android:tabStripEnabled">false</item>
+      <item name="android:divider">?android:attr/dividerVertical</item>
+      <item name="android:showDividers">middle</item>
+      <item name="android:dividerPadding">8dip</item>
+      <item name="android:measureWithLargestChild">true</item>
+      <item name="tabLayout">@layout/tab_indicator_green</item>
+  </style>
+  
+    <style name="PopupMenu.Green" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel</item>
+    </style>
+
+	<style name="TextAppearance.Widget.PopupMenu.Large.Green" parent="android:TextAppearance.Holo.Widget.PopupMenu.Large">
+	  <item name="android:textColor">@color/white</item>
+	</style>
+	
+	<style name="TextAppearance.Widget.PopupMenu.Small.Green" parent="android:TextAppearance.Holo.Widget.PopupMenu.Small">
+	  <item name="android:textColor">@color/white</item>
+	</style> 
+	    
+     <style name="DropDownNav.Green" parent="@android:style/Widget.Holo.Spinner">
+     	<item name="android:background">@drawable/spinner_background_holo_dark</item> 
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_stylingactionbar</item>
+    </style>
+ 
+      <style name="DropDownNav" parent="@android:style/Widget.Holo.Spinner">
+     	<item name="android:background">@drawable/spinner_background_holo_dark</item> 
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_stylingactionbar</item>
+    </style>
+  
+  <!-- 
+  <style name="TabMadsonic.Green">
+      <item name="android:paddingLeft">16dip</item>
+      <item name="android:paddingRight">16dip</item>
+      <item name="android:background">@drawable/tab_indicator_holo</item>
+      <item name="android:layout_width">0dip</item>
+      <item name="android:layout_weight">1</item>
+      <item name="android:minWidth">80dip</item>
+  </style>
+
+  <style name="TabTextMadsonic.Green">
+	  <item name="android:textColor">#ffffff</item>
+      <item name="android:textSize">12sp</item>
+      <item name="android:textStyle">bold</item>
+      <item name="android:textAllCaps">true</item>
+      <item name="android:ellipsize">marquee</item>
+      <item name="android:maxLines">2</item>
+      <item name="android:maxWidth">180dip</item>
+  </style>
+ -->
+      <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@android:color/transparent</item>
+    	<item name="android:windowBackground">@drawable/background</item>	        
+        <item name="android:backgroundStacked">@color/green</item>
+        <item name="android:backgroundSplit">@color/green</item>
+        <item name="android:textColor">@color/white</item>        
+    </style>
+ 
+  <style name="ProgressBarMadsonic.Green" parent="android:Widget.Holo.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/progress_horizontal_green</item>
+      <item name="android:indeterminateDrawable">@drawable/progress_indeterminate_horizontal_dark</item>
+      <item name="android:minHeight">16dip</item>
+      <item name="android:maxHeight">16dip</item>
+  </style>
+
+  <style name="SeekBarMadsonic.Green" parent="android:Widget.Holo.SeekBar">
+      <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_green</item>
+      <item name="android:indeterminateDrawable">@drawable/scrubber_progress_horizontal_green</item>
+      <item name="android:minHeight">13dip</item>
+      <item name="android:maxHeight">13dip</item>
+      <item name="android:thumb">@drawable/scrubber_control_selector_green</item>
+      <item name="android:thumbOffset">16dip</item>
+      <item name="android:paddingLeft">16dip</item>
+      <item name="android:paddingRight">16dip</item>
+  </style>
+<!-- 
+  <style name="RatingBarBigMadsonic.Green">
+      <item name="android:progressDrawable">@drawable/ratingbar_holo_dark</item>
+      <item name="android:indeterminateDrawable">@drawable/ratingbar_holo_dark</item>
+      <item name="android:minHeight">35dip</item>
+      <item name="android:maxHeight">35dip</item>
+  </style>
+
+  <style name="RatingBarSmallMadsonic.Green">
+      <item name="android:progressDrawable">@drawable/ratingbar_small_holo_dark</item>
+      <item name="android:indeterminateDrawable">@drawable/ratingbar_small_holo_dark</item>
+      <item name="android:minHeight">16dip</item>
+      <item name="android:maxHeight">16dip</item>
+  </style>
+ -->
+  <style name="ToggleMadsonic.Green" parent="android:Widget.Holo.Button.Toggle">
+      <item name="android:background">@drawable/btn_toggle_green</item>
+      <item name="android:minHeight">48dip</item>
+	  <item name="android:textColor">#ffffff</item>
+  </style>
+
+  <style name="ListViewMadsonic.Green" parent="android:Widget.ListView">
+      <item name="android:listSelector">@drawable/list_selector_green</item>
+  </style>
+
+  <style name="ListViewMadsonic.Green.White" parent="android:Widget.ListView.White">
+      <item name="android:listSelector">@drawable/list_selector_green</item>
+  </style>
+
+  <style name="SpinnerItemMadsonic.Green" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+      <item name="android:textColor">#ffffff</item>
+  </style>
+<!-- 
+  <style name="NumberPickerMadsonic.Green">
+      <item name="android:orientation">vertical</item>">
+      <item name="android:fadingEdge">vertical</item>">
+      <item name="android:fadingEdgeLength">50dip</item>">
+      <item name="solidColor">@android:color/transparent</item>">
+      <item name="selectionDivider">@drawable/numberpicker_selection_divider</item>">
+      <item name="selectionDividerHeight">2dip</item>">
+      <item name="internalLayout">@layout/number_picker_with_selector_wheel</item>">
+      <item name="internalMinWidth">64dip</item>">
+      <item name="internalMaxHeight">180dip</item>">
+      <item name="virtualButtonPressedDrawable">@drawable/item_background_green</item>">
+  </style>
+ -->
+</resources>

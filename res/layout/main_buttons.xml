@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity" >
+    
+    <LinearLayout
+        android:id="@+id/main_select_server"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:orientation="horizontal"
+        android:paddingBottom="2dip"
+        android:paddingLeft="6dp"
+        android:paddingTop="2dip" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_menu_select_artist_folder"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/main.select_server_1"
+        		android:textColor="@color/white"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="6dip"
+                android:text="@string/main.select_server"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/main.select_server_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+	<TextView
+	    android:id="@+id/main_songs"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:paddingLeft="4dp"
+	    android:text="@string/main.songs_title"
+	    android:textAppearance="?android:attr/textAppearanceSmall"
+	    android:textStyle="bold" />
+		
+	<TextView 
+	    android:id="@+id/main_genres_button" 
+		android:text="@string/main.genres_title"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium" 
+		android:gravity="center_vertical"
+        android:drawablePadding="5dip"
+        android:drawableRight="@drawable/list_item_more"
+        android:drawableLeft="@drawable/ic_action_song"
+		android:paddingLeft="5dip" 
+		android:paddingRight="10dip" 
+		android:minHeight="44dip" />			
+
+	<TextView 
+        android:id="@+id/main_songs_button" 
+        android:text="@string/main.songs_random"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:gravity="center_vertical"
+        android:drawablePadding="5dip"
+        android:drawableRight="@drawable/list_item_more"
+        android:drawableLeft="@drawable/ic_action_song"        
+        android:paddingLeft="5dip"
+		android:paddingRight="10dip"
+        android:minHeight="44dip" />				
+
+		<TextView 
+        android:id="@+id/main_songs_newadded_button" 
+        android:text="@string/main.songs_newadded"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:gravity="center_vertical"
+        android:drawablePadding="5dip"
+        android:drawableRight="@drawable/list_item_more"
+        android:drawableLeft="@drawable/ic_action_song"        
+        android:paddingLeft="5dip"
+		android:paddingRight="10dip"
+        android:minHeight="44dip" />		
+	
+		<TextView 
+        android:id="@+id/main_songs_lastplayed_button" 
+        android:text="@string/main.songs_lastplayed"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:gravity="center_vertical"
+        android:drawablePadding="5dip"
+        android:drawableRight="@drawable/list_item_more"
+        android:drawableLeft="@drawable/ic_action_song"        
+        android:paddingLeft="5dip"
+		android:paddingRight="10dip"
+        android:minHeight="44dip" />		
+	
+	<TextView 
+        android:id="@+id/main_artists_button" 
+        android:text="all Artist"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:gravity="center_vertical"
+        android:drawablePadding="5dip"
+        android:drawableRight="@drawable/list_item_more"
+        android:drawableLeft="@drawable/ic_action_artist"        
+        android:paddingLeft="5dip"
+		android:paddingRight="10dip"
+        android:minHeight="44dip" />				
+
+	<TextView
+	    android:id="@+id/main_artists"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:paddingLeft="4dp"
+	    android:text="@string/main.artists_title"
+	    android:textAppearance="?android:attr/textAppearanceSmall"
+	    android:textStyle="bold" />
+		
+	<TextView 
+        android:id="@+id/main_artists_genre" 
+        android:text="@string/main.artists_genre"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:gravity="center_vertical"
+        android:drawablePadding="5dip"
+        android:drawableLeft="@drawable/ic_action_artist"
+        android:drawableRight="@drawable/list_item_more"
+        android:paddingLeft="5dip"
+		android:paddingRight="10dip"
+        android:minHeight="44dip" />				
+
+	<TextView 
+        android:id="@+id/main_artists_starred" 
+        android:text="@string/main.artists_starred"        
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:gravity="center_vertical"
+        android:drawablePadding="5dip"
+        android:drawableLeft="@drawable/ic_action_artist"
+        android:drawableRight="@drawable/list_item_more"
+        android:paddingLeft="5dip"
+		android:paddingRight="10dip"
+        android:minHeight="44dip" />
+		
+	<TextView 
+        android:id="@+id/main_songs_starred" 
+        android:text="@string/main.songs_starred"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:gravity="center_vertical"
+        android:drawablePadding="5dip"
+        android:drawableLeft="@drawable/ic_action_song"        
+        android:drawableRight="@drawable/list_item_more"
+        android:paddingLeft="5dip"
+		android:paddingRight="10dip"
+        android:minHeight="44dip" />
+	
+    <TextView
+        android:id="@+id/main_albums"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:gravity="center_vertical"
+        android:paddingLeft="4dp"
+        android:text="@string/main.albums_title"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/main_albums_newest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dip"
+        android:drawableRight="@drawable/list_item_more"
+        android:drawableLeft="@drawable/ic_action_album"
+        android:gravity="center_vertical"
+        android:minHeight="44dip"
+        android:paddingLeft="5dip"
+		android:paddingRight="10dip"
+        android:text="@string/main.albums_newest"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/main_albums_starred"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dip"
+        android:drawableRight="@drawable/list_item_more"
+        android:drawableLeft="@drawable/ic_action_album"
+        android:gravity="center_vertical"
+        android:minHeight="44dip"
+        android:paddingLeft="5dip"
+		android:paddingRight="10dip"
+        android:text="@string/main.albums_starred"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/main_albums_highest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dip"
+        android:drawableRight="@drawable/list_item_more"
+        android:drawableLeft="@drawable/ic_action_album"
+        android:gravity="center_vertical"
+        android:minHeight="50dip"
+        android:paddingLeft="5dip"
+		android:paddingRight="10dip"
+        android:text="@string/main.albums_highest"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/main_albums_hot"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dip"
+        android:drawableRight="@drawable/list_item_more"
+        android:drawableLeft="@drawable/ic_action_album"
+        android:gravity="center_vertical"
+        android:minHeight="44dip"
+        android:paddingLeft="5dip"
+		android:paddingRight="10dip"
+        android:text="@string/main.albums_hot"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/main_albums_frequent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dip"
+        android:drawableRight="@drawable/list_item_more"
+        android:drawableLeft="@drawable/ic_action_album"
+        android:gravity="center_vertical"
+        android:minHeight="50dip"
+        android:paddingLeft="5dip"
+		android:paddingRight="10dip"
+        android:text="@string/main.albums_frequent"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/main_albums_recent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dip"
+        android:drawableRight="@drawable/list_item_more"
+        android:drawableLeft="@drawable/ic_action_album"
+        android:gravity="center_vertical"
+        android:minHeight="50dip"
+        android:paddingLeft="5dip"
+		android:paddingRight="10dip"
+        android:text="@string/main.albums_recent"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/main_albums_random"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dip"
+        android:drawableRight="@drawable/list_item_more"
+        android:drawableLeft="@drawable/ic_action_album"
+        android:gravity="center_vertical"
+        android:minHeight="44dip"
+        android:paddingLeft="5dip"
+		android:paddingRight="10dip"
+        android:text="@string/main.albums_random"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/main_albums_tip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dip"
+        android:drawableRight="@drawable/list_item_more"
+        android:drawableLeft="@drawable/ic_action_album"
+        android:gravity="center_vertical"
+        android:minHeight="44dip"
+        android:paddingLeft="5dip"
+		android:paddingRight="10dip"
+        android:text="@string/main.albums_tip"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+    <TextView 
+        android:id="@+id/main_albums_alphaByArtist" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dip"
+        android:drawableRight="@drawable/list_item_more"
+        android:drawableLeft="@drawable/ic_action_album"
+        android:gravity="center_vertical"
+        android:minHeight="44dip" 
+        android:paddingLeft="5dip" 
+		android:paddingRight="10dip"
+        android:text="@string/main.albums_alphaByArtist" 
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/main_albums_alphaByName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dip"
+        android:drawableRight="@drawable/list_item_more"
+        android:drawableLeft="@drawable/ic_action_album"
+        android:gravity="center_vertical"
+        android:minHeight="44dip"
+        android:paddingLeft="5dip"
+		android:paddingRight="10dip"
+        android:text="@string/main.albums_alphaByName"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+			
+   <TextView
+        android:id="@+id/main_videos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:gravity="center_vertical"
+        android:paddingLeft="4dp"
+        android:text="@string/main.videos_title"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/main_videos_newest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dip"
+        android:drawableRight="@drawable/list_item_more"
+        android:drawableLeft="@drawable/ic_action_video"
+        android:gravity="center_vertical"
+        android:minHeight="44dip"
+        android:paddingLeft="5dip"
+		android:paddingRight="10dip"
+        android:text="@string/main.videos_newest"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    
+</LinearLayout>

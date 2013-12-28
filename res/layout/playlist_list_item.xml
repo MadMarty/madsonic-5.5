@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:drawablePadding="6dip"
+    android:drawableRight="@drawable/list_item_more"
+    android:gravity="center_vertical"
+    android:minHeight="50dip"
+    android:paddingLeft="6dip"
+    android:paddingRight="16dip"
+    android:text="Playlist item"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+

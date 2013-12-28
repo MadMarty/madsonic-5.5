@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<style name="ListViewMadsonic.Holo" parent="android:Widget.ListView">
+		<item name="android:listSelector">@drawable/list_selector_holo</item>
+		<item name="android:cacheColorHint">@android:color/transparent</item>
+	</style>  
+
+	<style name="Widget.Holo.ImageButton" parent="Widget.Holo.ImageButton">
+		<item name="android:background">@drawable/buttonbar_selector_holo</item>
+		<item name="android:listViewStyle">@style/ListViewMadsonic.Holo</item>	  
+	</style>
+
+	<style name="TitleMadsonic.Holo" parent="android:Widget.TextView">
+		<item name="android:textColor">@color/cyan</item>
+	</style>
+
+	<style name="ButtonMadsonic.Holo" parent="android:Widget.Holo.Button">
+		<item name="android:textColor">@color/grey</item>  
+	</style>
+
+
+
+  <style name="ProgressBarMadsonic.Holo" parent="android:Widget.Holo.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/progress_horizontal_holo</item>
+      <item name="android:indeterminateDrawable">@drawable/progress_indeterminate_horizontal_dark</item>
+      <item name="android:minHeight">16dip</item>
+      <item name="android:maxHeight">16dip</item>
+  </style>
+
+  <style name="SeekBarMadsonic.Holo" parent="android:Widget.Holo.SeekBar">
+      <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_holo</item>
+      <item name="android:indeterminateDrawable">@drawable/scrubber_progress_horizontal_holo</item>
+      <item name="android:minHeight">13dip</item>
+      <item name="android:maxHeight">13dip</item>
+      <item name="android:thumb">@drawable/scrubber_control_selector_holo</item>
+      <item name="android:thumbOffset">16dip</item>
+      <item name="android:paddingLeft">16dip</item>
+      <item name="android:paddingRight">16dip</item>
+  </style>
+</resources>

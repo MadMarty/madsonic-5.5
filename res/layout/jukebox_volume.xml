@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toast_layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/toast_frame"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="12dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:shadowColor="#bb000000"
+        android:shadowRadius="2.75"
+        android:text="@string/download.jukebox_volume"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffffff" />
+
+    <ProgressBar
+        android:id="@+id/jukebox_volume_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="3dp"
+        android:minHeight="10dip"
+        android:paddingBottom="3dp" />
+
+</LinearLayout>

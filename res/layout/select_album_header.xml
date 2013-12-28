@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/select_album_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ellipsize="end"
+        android:paddingBottom="2dp"
+        android:paddingLeft="4dip"
+        android:paddingRight="4dip"
+        android:paddingTop="4dp"
+        android:singleLine="true"
+        android:text="This is the album title"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/mediaControlForeground"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/select_album_artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/select_album_title"
+        android:ellipsize="end"
+        android:padding="4dip"
+        android:paddingBottom="2dip"
+        android:paddingLeft="4dip"
+        android:paddingRight="4dip"
+        android:singleLine="true"
+        android:text="This is the artist name"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/select_album_song_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/select_album_artist"
+        android:ellipsize="none"
+        android:paddingBottom="16dp"
+        android:paddingRight="4dip"
+        android:paddingLeft="4dip"
+        android:singleLine="true"
+        android:text="XX SONGS"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/select_album_art"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@null"
+        android:scaleType="fitEnd"
+        android:src="@drawable/unknown_album" />
+
+    <ImageView
+        android:id="@+id/select_album_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/select_album_art"
+        android:layout_toLeftOf="@+id/select_album_art"
+        android:contentDescription="@null"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star_big_off" />
+
+    <ImageView
+        android:id="@+id/select_album_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/select_album_art"
+        android:layout_toLeftOf="@+id/select_album_star"
+        android:contentDescription="@null"
+        android:padding="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_action_share" />
+
+    <ImageView
+        android:id="@+id/select_album_share_madsonic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/select_album_share"
+        android:layout_toLeftOf="@+id/select_album_share"
+        android:contentDescription="@null"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:paddingBottom="10dp"
+        android:paddingRight="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_action_madsonic" />
+
+</RelativeLayout>

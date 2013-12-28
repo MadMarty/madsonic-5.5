@@ -1,0 +1,347 @@
+<resources>
+
+    <string name="common.appname">"Madsonic"</string>
+    <string name="common.ok">"OK"</string>
+    <string name="common.continue">Continue</string>
+    <string name="common.save">"SAVE"</string>
+    <string name="common.cancel">"CANCEL"</string>
+    <string name="common.play_now">"PLAY"</string>
+    <string name="common.play_shuffled">"MIXED"</string>
+    <string name="common.play_next">"NEXT"</string>
+    <string name="common.play_last">"LAST"</string>
+    <string name="common.pin">"PIN"</string>
+    <string name="common.unpin">"UNPIN"</string>
+    <string name="common.delete">"DELETE"</string>
+
+    <string name="button_bar.home">"Madsonic Home"</string>
+    <string name="button_bar.browse">"Mediathek"</string>
+    <string name="button_bar.search">"Suche"</string>
+    <string name="button_bar.chat">Chat</string>
+    <string name="button_bar.playlists">"Playlists"</string>
+    <string name="button_bar.podcasts">Podcasts</string>
+    <string name="button_bar.now_playing">"Aktuelle Wiedergabe"</string>
+
+    <string name="main.welcome_title">"Willkommen!"</string>
+    <string name="main.welcome_text">"Willkommen zu MadSonic!
+	\nDie App ist zurzeit so konfiguriert, um den Demo Subsonic-Server zu verwenden."</string>
+    <string name="main.select_server">"Server auswählen"</string>
+    <string name="main.select_genre">"Wähle Genre"</string>
+    <string name="main.select_all_genres">"Alle Genre"</string>
+    <string name="main.shuffle">"Zufallswiedergabe"</string>
+    <string name="main.offline">"Offline"</string>
+    <string name="main.settings">"Einstellungen"</string>
+    <string name="main.artists_title">"Interpreten"</string>
+    <string name="main.genre_title">Genre</string>
+    <string name="main.genres_title">Genre</string>
+    <string name="main.albums_title">"Alben"</string>
+    <string name="main.albums_newest">"Neu hinzugefügt"</string>
+    <string name="main.albums_recent">"Kürzlich gespielt"</string>
+    <string name="main.albums_frequent">"Am meisten gespielt"</string>
+    <string name="main.albums_highest">"Beste Bewertung"</string>
+    <string name="main.albums_random">"Zufallswiedergabe"</string>
+    <string name="main.artists_starred">Favoriten</string>
+    <string name="main.artists_genre">Genre</string>
+    <string name="main.albums_hot">Beste Empfehlungen</string>
+    <string name="main.songs_title">Title</string>
+    <string name="main.songs_starred">Favoriten</string>
+    <string name="main.songs_random">Zufallswiedergabe</string>	    
+    <string name="main.songs_newadded">Neu hinzugefügt</string>	    
+    <string name="main.songs_lastplayed">Kürzlich gespielt</string>	    
+    <string name="main.shared">Shared</string>	    
+    <string name="main.albums_starred">Favoriten</string>
+    <string name="main.albums_tip">Album Tipps</string>
+    <string name="main.albums_alphaByName">nach Namen</string>
+    <string name="main.albums_alphaByArtist">nach Interpreten</string>
+    <string name="main.artists">Alle</string>
+    
+    <string name="menu.rescan">"Rescan Medien"</string>
+    <string name="menu.refresh">"Aktualisieren"</string>
+    <string name="menu.settings">"Einstellungen"</string>
+    <string name="menu.logs">"Sende Bugreport"</string>
+    <string name="menu.help">"Hilfe"</string>
+    <string name="menu.exit">"Beenden"</string>
+
+    <string name="playlist.label">"Playlists"</string>
+
+    <string name="help.label">"Hilfe"</string>
+    <string name="help.title">"Willkommen zu Madsonic!"</string>
+    <string name="help.back">"Zurück"</string>
+    <string name="help.close">"Beenden"</string>
+    <string name="help.url">"file:///android_asset/html/de/index.html"</string>
+    <string name="help.loading">"Wird geladen…"</string>
+
+    <string name="play_video.loading">"Video wird geladen…"</string>
+    <string name="play_video.noplugin">"Bitte installieren Sie den Adobe Flash Player aus dem Android Market."</string>
+
+    <string name="search.label">"Suchen"</string>
+    <string name="search.title">"Suchen"</string>
+    <string name="search.search">"Klicken um zu suchen"</string>
+    <string name="search.no_match">"Keine Treffer, bitte versuchen Sie es erneut"</string>
+    <string name="search.artists">"Interpreten"</string>
+    <string name="search.albums">"Alben"</string>
+    <string name="search.songs">"Lieder"</string>
+    <string name="search.more">"mehr anzeigen"</string>
+
+    <string name="progress.wait">"Bitte warten…"</string>
+
+    <string name="music_library.label">"Mediathek"</string>
+    <string name="music_library.label_offline">"Offline-Medien"</string>
+
+    <string name="select_album.empty">"Keine Medien gefunden."</string>
+    <string name="select_album.select">"ALL"</string>
+    <string name="select_album.n_selected">"%d Titel ausgewählt."</string>
+    <string name="select_album.n_unselected">"%d Titel deselektiert."</string>
+    <string name="select_album.more">"Mehr"</string>
+    <string name="select_album.offline">"Offline"</string>
+    <string name="select_album.searching">"Suche …"</string>
+    <string name="select_album.no_sdcard">"Fehler: Keine SD-Karte zur Verfügung."</string>
+    <string name="select_album.no_network">"Warnung: Kein Netz verfügbar."</string>
+
+    <string name="select_genre.empty">"Keine Genre gefunden"</string>
+    <string name="select_playlist.empty">"Keine gespeicherten Playlisten auf dem Server"</string>
+
+    <string name="download.empty">"Playlist ist leer"</string>
+    <string name="download.playerstate_downloading">"Downloading - %s"</string>
+    <string name="download.playerstate_buffering">"Pufferung"</string>
+    <string name="download.playerstate_playing_shuffle">"spiele zufällig"</string>
+    <string name="download.playerstate_playing_remote">Remote abspielen</string>
+    <string name="download.menu_show_album">"Zeige Album"</string>
+    <string name="download.menu_lyrics">"Songtexte"</string>
+    <string name="download.menu_remove">"Song entfernen"</string>
+    <string name="download.menu_delete">"Song löschen"</string>
+    <string name="download.menu_remove_all">"Alle entfernen"</string>
+    <string name="download.menu_screen_on">"Bildschirm aktiviert"</string>
+    <string name="download.menu_screen_off">"Bildschirm deaktviert"</string>
+    <string name="download.menu_shuffle">"Songs mischen"</string>
+    <string name="download.menu_save">"als Playlist speichern"</string>
+    <string name="download.menu_add_playlist">zu Playlist hinzufügen</string>
+    <string name="download.menu_shuffle_notification">"Playlist wurde gemischt"</string>
+    <string name="download.playlist_title">"Playlist speichern"</string>
+    <string name="download.playlist_name">"Namen der Playlist:"</string>
+    <string name="download.playlist_saving">"Speichere playlist \"%s\"…"</string>
+    <string name="download.playlist_done">"Playlist wurde erfolgreich gespeichert."</string>
+    <string name="download.playlist_error">"Konnte Playlist nicht speichern, bitte versuchen Sie es später."</string>
+    <string name="download.repeat_off">"Wiederholung Aus"</string>
+    <string name="download.repeat_all">"Alle wiederholen"</string>
+    <string name="download.repeat_single">"Song wiederholen"</string>
+    <string name="download.visualizer_on">"Visualizer eingeschaltet."</string>
+    <string name="download.visualizer_off">"Visualizer ausgeschaltet."</string>
+    <string name="download.screen_on">Player Display aktiv lassen.</string>
+    <string name="download.jukebox_on">"Remote Control einschalten. Musik auf dem Server abpielen."</string>
+    <string name="download.jukebox_off">"Remote Control ausschalten. Musik auf dem Handy abpielen."</string>
+    <string name="download.jukebox_volume">"Remote-Volume"</string>
+    <string name="download.jukebox_server_too_old">"Remote Control wird nicht unterstützt. Bitte aktualisieren Sie Ihren Madsonic Server."</string>
+    <string name="download.jukebox_offline">"Remote Control ist nicht im Offline-Modus verfügbar."</string>
+    <string name="download.jukebox_not_authorized">"Remote Control nicht erlaubt. Bitte aktivieren Sie den Jukebox-Modus in den Einstellungen am Madsonic Server."</string>
+    <string name="starring_content_error">Update Fehler \"%s\", Versuchen Sie es noch einmal.</string>
+
+    <string name="playlist_error">Fehler beim Zugriff auf die Playlists</string>
+    <string name="updated_playlist">%1$s Songs zu \"%2$s\ hinzugefügt"</string>
+    <string name="updated_playlist_error">Update Fehler \"%s\", Versuchen Sie es noch einmal.</string>
+    <string name="removed_playlist">%1$s Songs entfernt von \"%2$s\"</string>
+    <string name="delete_playlist">Wollen Sie %1$s löschen</string>    
+    <string name="song_details.all">"%1$s %2$s"</string>
+    <string name="song_details.kbps">"%d kbps"</string>
+
+    <string name="lyrics.nomatch">"Keine Songtexte gefunden"</string>
+
+    <string name="error.label">"Fehler"</string>
+
+    <string name="settings.title">"Madsonic Einstellungen"</string>
+    <string name="settings.test_connection_title">"Verbindung testen"</string>
+    <string name="settings.servers_title">"Server"</string>
+    <string name="settings.server_unused">"Nicht verwendet"</string>    
+    <string name="settings.server_unused1">"Ungenutzte 1"</string>
+    <string name="settings.server_unused2">"Ungenutzte 2"</string>
+    <string name="settings.server_unused3">"Ungenutzte 3"</string>
+    <string name="settings.server_unused4">"Ungenutzte 4"</string>
+    <string name="settings.server_name">"Name"</string>
+	<string name="settings.server_add_server">"Server hinzufügen"</string>    
+	<string name="settings.server_number">"Anzahl der Server"</string>
+	<string name="settings.server_remove_server">"Server entfernen"</string>
+    <string name="settings.server_address">"Server-Adresse"</string>
+    <string name="settings.server_username">"Benutzername"</string>
+    <string name="settings.server_password">"Passwort"</string>
+    <string name="settings.cache_title">"Musik-Cache"</string>
+    <string name="settings.preload">"Songs cachen"</string>
+    <string name="settings.cache_size">"Cache-Größe (MB)"</string>
+    <string name="settings.cache_location">"Cache-Standort"</string>
+    <string name="settings.cache_location_error">"Ungültige Cache Lokation. Standard wird benutzt."</string>
+    <string name="settings.testing_connection">"Teste Verbindung …"</string>
+    <string name="settings.testing_ok">"Verbindung ist OK"</string>
+    <string name="settings.testing_unlicensed">"Verbindung ist OK. Server unlizenziert."</string>
+    <string name="settings.connection_failure">"Verbindungsfehler."</string>
+    <string name="settings.invalid_url">"Bitte geben Sie eine gültige URL ein"</string>
+    <string name="settings.invalid_username">"Bitte geben Sie einen gültigen Benutzernamen (keine Leerzeichen)."</string>
+    <string name="settings.appearance_title">"Aussehen"</string>
+    <string name="settings.language_title">Language</string>
+    <string name="settings.language_auto">automatic</string>
+    <string name="settings.language_en">englisch</string>
+    <string name="settings.language_de">deutsch</string>
+    <string name="settings.language_fr">französisch</string>
+    <string name="settings.language_ru">russisch</string>
+    <string name="settings.language_hu">ungarisch</string>
+    <string name="settings.theme_title">"Theme"</string>
+    <string name="settings.network_title">"Netzwerk"</string>
+    <string name="settings.max_bitrate_wifi">"Max Audio bitrate - WiFi"</string>
+    <string name="settings.max_bitrate_mobile">"Max Audio bitrate - Mobile"</string>
+    <string name="settings.max_bitrate_32">"32 Kbps"</string>
+    <string name="settings.max_bitrate_64">"64 Kbps"</string>
+    <string name="settings.max_bitrate_80">"80 Kbps"</string>
+    <string name="settings.max_bitrate_96">"96 Kbps"</string>
+    <string name="settings.max_bitrate_112">"112 Kbps"</string>
+    <string name="settings.max_bitrate_128">"128 Kbps"</string>
+    <string name="settings.max_bitrate_160">"160 Kbps"</string>
+    <string name="settings.max_bitrate_192">"192 Kbps"</string>
+    <string name="settings.max_bitrate_256">"256 Kbps"</string>
+    <string name="settings.max_bitrate_320">"320 Kbps"</string>
+    <string name="settings.max_video_bitrate_wifi">"Max Video Bitrate - WiFi"</string>
+    <string name="settings.max_video_bitrate_mobile">"Max Video Bitrate - Mobil"</string>
+    <string name="settings.max_video_bitrate_200">200 Kbps</string>
+    <string name="settings.max_video_bitrate_300">300 Kbps</string>
+    <string name="settings.max_video_bitrate_400">400 Kbps</string>
+    <string name="settings.max_video_bitrate_500">500 Kbps</string>
+    <string name="settings.max_video_bitrate_700">700 Kbps</string>
+    <string name="settings.max_video_bitrate_1000">1000 Kbps</string>
+    <string name="settings.max_video_bitrate_1500">1500 Kbps</string>
+    <string name="settings.max_video_bitrate_2000">2000 Kbps</string>
+    <string name="settings.max_video_bitrate_3000">3000 Kbps</string>
+    <string name="settings.max_video_bitrate_5000">5000 Kbps</string>
+    <string name="settings.max_bitrate_unlimited">"Unbegrenzt"</string>
+    
+    <string name="settings.internalPlayer">"internal Player"</string>
+    <string name="settings.externalPlayer">"external Player"</string>
+    <string name="settings.defaultVideoplayer">"Standard VideoPlayer"</string>
+    <string name="settings.wifi_required_title">"nur WiFi-Streaming"</string>
+    <string name="settings.wifi_required_summary">"Nur Streamen wenn WiFi verbunden ist"</string>
+    <string name="settings.network_timeout_title">"Netzwerk Timeout"</string>
+    <string name="settings.network_timeout_10000">"10 Sekunden"</string>
+    <string name="settings.network_timeout_15000">"15 Sekunden"</string>
+    <string name="settings.network_timeout_30000">"30 Sekunden"</string>
+    <string name="settings.network_timeout_45000">"45 Sekunden"</string>
+    <string name="settings.network_timeout_60000">"60 Sekunden"</string>
+    <string name="settings.network_timeout_75000">"75 Sekunden"</string>
+    <string name="settings.network_timeout_90000">"90 Sekunden"</string>
+    <string name="settings.network_timeout_105000">"105 Sekunden"</string>
+    <string name="settings.network_timeout_120000">"120 Sekunden"</string>	
+    <string name="settings.preload_1">"1 Song"</string>
+    <string name="settings.preload_2">"2 Songs"</string>
+    <string name="settings.preload_3">"3 Songs"</string>
+    <string name="settings.preload_5">"5 Songs"</string>
+    <string name="settings.preload_10">"10 Songs"</string>
+    <string name="settings.preload_unlimited">Unlimited</string>
+    <string name="settings.cache_size_100">100 MB</string>
+    <string name="settings.cache_size_200">200 MB</string>
+    <string name="settings.cache_size_500">500 MB</string>
+    <string name="settings.cache_size_1000">1 GB</string>
+    <string name="settings.cache_size_2000">2 GB</string>
+    <string name="settings.cache_size_5000">5 GB</string>
+    <string name="settings.cache_size_10000">10 GB</string>
+    <string name="settings.cache_size_20000">20 GB</string>
+    <string name="settings.cache_size_unlimited">Unlimited</string>
+    <string name="settings.clear_search_history">Clear search history</string>
+    <string name="settings.search_history_cleared">"Suchverlauf gelöscht"</string>
+    <string name="settings.other_title">"Andere Einstellungen"</string>
+    <string name="settings.search_title">"Suche Einstellungen"</string>
+    <string name="settings.scrobble_title">"Scrobble zu Last.fm"</string>
+    <string name="settings.scrobble_summary">"Denken Sie daran, ihren Last.fm Benutzer und Kennwort in ihren Einstellungen festzulegen."</string>
+    <string name="settings.hide_media_title">"Ausgeblendet für andere"</string>
+    <string name="settings.hide_media_summary">" Mediendateien für andere Anwendungen ausblenden."</string>
+    <string name="settings.hide_media_toast">"Wirkt sich erst nach erneutem Suchvorgang aus."</string>
+    <string name="settings.media_button_title">"Medien-Tasten"</string>
+    <string name="settings.media_button_summary">"Reagiert auf Handy, Headset und Bluetooth Media-Tasten"</string>
+    <string name="settings.screen_lit_title">" Bildschirm ausblenden"</string>
+    <string name="settings.screen_lit_summary">"Bildschirm eingeblendet lassen um Download-Geschwindigkeit zu erhöhen."</string>
+    <string name="settings.buffer_length">"Buffer Länge"</string>
+
+    <string name="settings.buffer_length_1">"1 Sekunde"</string>
+    <string name="settings.buffer_length_2">2 Sekunden</string>
+    <string name="settings.buffer_length_5">5 Sekunden</string>
+    <string name="settings.buffer_length_8">8 Sekunden</string>
+    <string name="settings.buffer_length_10">10 Sekunden</string>
+    <string name="settings.buffer_length_12">12 Sekunden</string>
+    <string name="settings.buffer_length_15">15 Sekunden</string>
+    <string name="settings.buffer_length_20">20 Sekunden</string>
+    <string name="settings.buffer_length_30">30 Sekunden</string>
+    <string name="settings.playlist_title">"Playlists"</string>
+    <string name="settings.playlist_random_size_title">"zufällige Title"</string>
+    <string name="settings.use_stream_proxy">Proxy</string>
+    <string name="settings.use_stream_proxy_summary">"Verwenden Proxystreaming (Shutter-Fix)"</string>
+
+    <string name="settings.search_1">"1"</string>
+    <string name="settings.search_3">"o"</string>
+    <string name="settings.search_6">"6"</string>
+    <string name="settings.search_8">"8"</string>
+    <string name="settings.search_10">"10"</string>
+    <string name="settings.search_12">"12"</string>
+    <string name="settings.search_20">"20"</string>
+    <string name="settings.search_25">"22"</string>
+    <string name="settings.search_50">"45"</string>
+    <string name="settings.search_100">"91"</string>
+    <string name="settings.max_artists">"Max Künstler"</string>
+    <string name="settings.max_albums">"Max Alben"</string>
+    <string name="settings.max_songs">"Max Songs"</string>
+    <string name="settings.default_artists">"Standard Künstler"</string>
+    <string name="settings.default_albums">"Standard Alben"</string>
+    <string name="settings.default_songs">"Standard Songs"</string>
+
+	<string name="settings.audioFocus_title">"Audio-Focus"</string>
+	<string name="settings.audioFocus_pause_lower">"Pause, geringere Volumen \ Nwhen angefordert"</string>
+	<string name="settings.audioFocus_pause">"Immer Pause"</string>
+	<string name="settings.audioFocus_lower">"Immer geringeres Volumen"</string>
+	<string name="settings.audioFocus_nothing">"Keine weiteren Veränderungen vornehmen"</string>
+	<string name="settings.persistent_title">"Persistene Benachrichtigung"</string>
+	<string name="settings.persistent_summary">"Lassen Sie sich die Meldung auch nach dem Anhalten. Drücken Sie die Stopp-Taste, um Benachrichtigungen zu schliessen."</string>
+    <string name="music_service.retry">"Ein Netzwerk-Fehler aufgetreten. Versuch %1$d von %2$d."</string>
+
+    <string name="background_task.wait">"Bitte warten..."</string>
+    <string name="background_task.loading">"Laden"</string>
+    <string name="background_task.no_network">"Dieses Programm benötigt einen Netzzugang. Bitte schalten Sie WiFi oder Mobilfunknetz ein."</string>
+    <string name="background_task.network_error">"Ein Netzwerk-Fehler ist aufgetreten. Bitte überprüfen Sie die Server-Adresse oder versuchen Sie es später erneut."</string>
+    <string name="background_task.not_found">"Ressource wurde nicht gefunden. Bitte überprüfen Sie die Adresse des Servers."</string>
+    <string name="background_task.parse_error">"Antwortfehler. Bitte überprüfen Sie die Adresse des Servers."</string>
+
+    <string name="service.connecting">"Kontaktiere Server, bitte warten …"</string>
+
+    <string name="parser.reading">"Lese vom Server."</string>
+    <string name="parser.reading_done">"Lesen vom Server. Fertig!"</string>
+    <string name="parser.upgrade_client">"Inkompatible Versionen. Bitte aktualisieren Sie die Madsonic Android App."</string>
+    <string name="parser.upgrade_server">"Inkompatible Versionen. Bitte aktualisieren Sie den Madsonic Server."</string>
+    <string name="parser.not_authenticated">"Falscher Benutzername oder Passwort."</string>
+    <string name="parser.not_authorized">"Nicht zugelassen. Überprüfen Sie Benutzerrechte am Madsonic Server."</string>
+    <string name="parser.artist_count">"Empfange %d Künstler."</string>
+
+    <string name="select_artist.refresh">"Aktualisieren"</string>
+    <string name="select_artist.folder">"Wählen Sie den Ordner"</string>
+    <string name="select_artist.all_folders">"Alle Ordner"</string>
+
+    <string name="equalizer.label">"Equalizer"</string>
+    <string name="equalizer.enabled">"Aktiviert"</string>
+    <string name="equalizer.on">"Equalizer an"</string>
+    <string name="equalizer.off">"Equalizer aus"</string>
+    <string name="equalizer.preset">"Einstellungen"</string>
+
+    <string name="widget.initial_text">"Tippen um auszuwählen"</string>
+    <string name="widget.sdcard_busy">"SD-Karte nicht verfügbar"</string>
+    <string name="widget.sdcard_missing">"Keine SD-Karte"</string>
+
+    <string name="util.bytes_format.gigabyte">"0,00 GB"</string>
+    <string name="util.bytes_format.megabyte">"0,00 MB"</string>
+    <string name="util.bytes_format.kilobyte">"0 KB"</string>
+    <string name="util.bytes_format.byte">"0 B"</string>
+
+    <plurals name="select_album_n_songs">
+        <item quantity="zero">"Keine Songs"</item>
+        <item quantity="one">"Einen Song</item>
+        <item quantity="other">"%d Songs"</item>
+    </plurals>
+    <plurals name="select_album_n_songs_downloading">
+        <item quantity="one">"Einen Song zum Download markiert."</item>
+        <item quantity="other">"%d Songs zum Download markiert."</item>
+    </plurals>
+    <plurals name="select_album_n_songs_added">
+        <item quantity="one">"Einen Song zur Playlist hinzugefügt."</item>
+        <item quantity="other">"%d Songs zur Playlist hinzugefügt."</item>
+    </plurals>
+
+</resources>

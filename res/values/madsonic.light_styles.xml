@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="ImageButtonMadsonic.Light" parent="Widget.Holo.ImageButton">
+      <item name="android:background">@drawable/buttonbar_selector_light</item>
+      <item name="android:listViewStyle">@style/ListViewMadsonic.Light</item>	  
+  </style> 
+  
+    <style name="DropDownNav.Light" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel</item>
+    </style>
+
+  <style name="ListViewMadsonic.Light" parent="android:Widget.ListView">
+      <item name="android:listSelector">@drawable/list_selector_dark</item>
+      <item name="android:cacheColorHint">@android:color/transparent</item>
+  </style>     
+
+<style name="listSeparatorTextViewStyle.Light" parent="@android:attr/listSeparatorTextViewStyle">
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:paddingTop">2dip</item>
+    <item name="android:paddingBottom">3dip</item>
+    <item name="android:paddingLeft">5dip</item>
+    <item name="android:background">@android:color/transparent</item>
+    <item name="android:textAppearance">@android:style/TextAppearance.Small</item>
+    <item name="android:shadowColor">#111111</item>
+    <item name="android:shadowRadius">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColor">@android:color/white</item>
+  </style>  
+  
+</resources>

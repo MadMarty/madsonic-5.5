@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!-- MADSONIC DARK -->
+  <style name="Madsonic.Dark" parent="android:Theme.Holo">
+    <item name="android:windowBackground">@drawable/background</item>	
+    <item name="android:textColorPrimary">@color/notificationArtist</item>
+    <item name="android:textColorSecondary">@color/orange</item>
+    <item name="android:editTextStyle">@style/EditTextMadsonic.Dark</item>
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewMadsonic.Dark</item>
+    <item name="android:checkboxStyle">@style/CheckBoxMadsonic.Dark</item>
+    <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check_dark</item>
+    <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio_holo_dark</item>
+    <item name="android:radioButtonStyle">@style/RadioButtonMadsonic.Dark</item>
+    <item name="android:buttonStyle">@style/ButtonMadsonic.Dark</item>
+    <item name="android:imageButtonStyle">@style/Widget.Dark.ImageButton</item>
+    <item name="android:spinnerStyle">@style/SpinnerMadsonic.Dark</item>
+<!--    <item name="android:dropDownSpinnerStyle">@style/SpinnerMadsonic.Dark.DropDown</item>  --> 
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemMadsonic.Dark</item>
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarMadsonic.Dark</item>
+    <item name="android:seekBarStyle">@style/SeekBarMadsonic.Dark</item>
+    <item name="android:buttonStyleToggle">@style/ToggleMadsonic.Dark</item>
+    <item name="android:listViewStyle">@style/ListViewMadsonic.Dark</item>
+    <item name="android:listViewWhiteStyle">@style/ListViewMadsonic.Dark.White</item>   
+    <item name="android:spinnerItemStyle">@style/SpinnerItemMadsonic.Dark</item>	 
+	<item name="chat">@drawable/ic_menu_chat_dark</item>
+	<item name="chat_send">@drawable/ic_menu_chat_send_dark</item>
+    <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+    <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+    </style>
+  
+<!-- MADSONIC DARK FULLSCREEN -->
+  <style name="Madsonic.Dark.Fullscreen" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+    <item name="android:windowBackground">@drawable/background</item>	
+    <item name="android:textColorPrimary">@color/notificationArtist</item>
+    <item name="android:textColorSecondary">@color/orange</item>
+    <item name="android:dropDownListViewStyle">@style/DropDownListView</item>  
+    <item name="android:editTextStyle">@style/EditTextMadsonic.Dark</item>
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewMadsonic.Dark</item>
+    <item name="android:checkboxStyle">@style/CheckBoxMadsonic.Dark</item>
+    <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check_dark</item>
+    <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio_holo_dark</item>
+    <item name="android:radioButtonStyle">@style/RadioButtonMadsonic.Dark</item>
+    <item name="android:buttonStyle">@style/ButtonMadsonic.Dark</item>
+    <item name="android:imageButtonStyle">@style/Widget.Dark.ImageButton</item>
+    <item name="android:spinnerStyle">@style/SpinnerMadsonic.Dark</item>
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemMadsonic.Dark</item>
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarMadsonic.Dark</item>
+    <item name="android:seekBarStyle">@style/SeekBarMadsonic.Dark</item>
+    <item name="android:buttonStyleToggle">@style/ToggleMadsonic.Dark</item>
+    <item name="android:listViewStyle">@style/ListViewMadsonic.Dark</item>
+    <item name="android:listViewWhiteStyle">@style/ListViewMadsonic.Dark.White</item>   
+    <item name="android:spinnerItemStyle">@style/SpinnerItemMadsonic.Dark</item>	 
+	<item name="chat">@drawable/ic_menu_chat_dark</item>
+	<item name="chat_send">@drawable/ic_menu_chat_send_dark</item>
+  </style>  
+
+</resources>
